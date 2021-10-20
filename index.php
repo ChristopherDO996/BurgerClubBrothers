@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Basic -->
 
 <head>
 	<meta charset="utf-8">
@@ -65,9 +64,9 @@
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active"><a class="nav-link" href="index.php">Inicio</a></li>
-						<li class="nav-item"><a class="nav-link text-white" href="menu.php">Menú</a></li>
-						<li class="nav-item"><a class="nav-link text-white" href="nosotros.php">Nosotros</a></li>
-						<li class="nav-item"><a class="nav-link text-white" href="galeria.php">Galería</a></li>
+						<li class="nav-item"><a class="nav-link text-white" href="php/menu.php">Menú</a></li>
+						<li class="nav-item"><a class="nav-link text-white" href="php/nosotros.php">Nosotros</a></li>
+						<li class="nav-item"><a class="nav-link text-white" href="php/galeria.php">Galería</a></li>
 						<!--<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
@@ -83,7 +82,7 @@
 								<a class="dropdown-item" href="blog-details.html">blog Single</a>
 							</div>
 						</li>-->
-						<li class="nav-item"><a class="nav-link text-white" href="contacto.php">Contacto</a></li>
+						<li class="nav-item"><a class="nav-link text-white" href="php/contacto.php">Contacto</a></li>
 					</ul>
 				</div>
 			</div>
