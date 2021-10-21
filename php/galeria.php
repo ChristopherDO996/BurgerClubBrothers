@@ -1,5 +1,5 @@
-<?php include 'views/head.php';
-include 'views/header.php'; ?>
+<?php include 'views/mainPage/head.php';
+include 'views/mainPage/header.php'; ?>
 
 <div class="all-page-title page-breadcrumb">
 	<div class="container text-center">
@@ -12,6 +12,6 @@ include 'views/header.php'; ?>
 </div>
 <!-- End All Pages -->
 
-<?php include 'views/galeria.php'; ?>
-<?php include 'views/footer.php'; ?>
-<?php include 'views/endpage.php'; ?>
+<?php include 'views/mainPage/galeria.php'; ?>
+<?php include 'views/mainPage/footer.php'; ?>
+<?php include 'views/mainPage/endpage.php'; ?>

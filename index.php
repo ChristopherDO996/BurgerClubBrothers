@@ -83,6 +83,11 @@
 							</div>
 						</li>-->
 						<li class="nav-item"><a class="nav-link text-white" href="php/contacto.php">Contacto</a></li>
+						<?php if (!isset($_SESSION['usuario'])) { ?>
+							<li class="nav-item"><a class="nav-link text-white" href="php/login.php">Iniciar sesión</a></li>
+						<?php } else { ?>
+							<li class="nav-item"><a class="nav-link text-white" href="php/login.php">Cerrar sesión</a></li>
+						<?php } ?>
 					</ul>
 				</div>
 			</div>

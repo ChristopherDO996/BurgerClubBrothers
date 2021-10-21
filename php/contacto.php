@@ -1,5 +1,5 @@
-<?php include 'views/head.php'; ?>
-<?php include 'views/header.php'; ?>
+<?php include 'views/mainPage/head.php'; ?>
+<?php include 'views/mainPage/header.php'; ?>
 
 <div class="all-page-title page-breadcrumb">
 	<div class="container text-center">
@@ -74,5 +74,5 @@
 </div>
 <!-- End Contact -->
 
-<?php include 'views/footer.php'; ?>
-<?php include 'views/endpage.php'; ?>
+<?php include 'views/mainPage/footer.php'; ?>
+<?php include 'views/mainPage/endpage.php'; ?>
