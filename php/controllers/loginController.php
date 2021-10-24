@@ -4,7 +4,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    echo login($_POST['email'], $_POST['password']);
+    login($email, $password);
 }
 
 function login($user, $pass)
